@@ -1,15 +1,12 @@
 name: Publish Package to npmjs
 
 on:
-  push:
-    branches: ["main"]
-  pull_request:
-    branches: ["main"]
+  release:
+    types: [published]
 
 jobs:
   build:
     environment: default
-    name: Push Docker image to Docker Hub
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repo
