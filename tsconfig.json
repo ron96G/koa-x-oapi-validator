@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "outDir": "dist",
+    "rootDir": "src",
+    "emitDecoratorMetadata": true,
+    "declaration": true,
+    "sourceMap": false,
+    "strict": false,
+    "inlineSourceMap": false,
+    "esModuleInterop": true /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */,
+    "resolveJsonModule": true /* Include modules imported with .json extension. */,
+    /* Additional Checks */
+    "noUnusedLocals": false /* Report errors on unused locals. */,
+    "noUnusedParameters": false /* Report errors on unused parameters. */,
+    "noImplicitReturns": true /* Report error when not all code paths in function return a value. */,
+    "noFallthroughCasesInSwitch": true /* Report errors for fallthrough cases in switch statement. */,
+    /* Debugging Options */
+    "traceResolution": false /* Report module resolution log messages. */,
+    "listEmittedFiles": false /* Print names of generated files part of the compilation. */,
+    "listFiles": false /* Print names of files part of the compilation. */,
+    "pretty": true /* Stylize errors and messages using color and context. */,
+    /* Experimental Options */
+    "experimentalDecorators": true /* Enables experimental support for ES7 decorators. */,
+    "composite": true,
+    "tsBuildInfoFile": "dist/.tsbuildinfo",
+    "lib": ["es2015", "dom"]
+  },
+  "typedocOptions": {
+    "entryPoints": ["src/*.ts"],
+    "out": "public"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": [
+    "node_modules",
+    ".yarn",
+    ".vscode",
+    ".docker",
+    ".husky",
+    "public",
+    "dist",
+    "coverage"
+  ],
+  "compileOnSave": false
+}
