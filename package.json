@@ -43,7 +43,7 @@
     "@types/koa": "^2.13.5",
     "@types/koa__router": "^12.0.0",
     "@types/koa-bodyparser": "^4.3.10",
-    "@types/node": "^18.13.0",
+    "@types/node": "^20.2.5",
     "@types/supertest": "^2.0.12",
     "@typescript-eslint/eslint-plugin": "^5.53.0",
     "eslint": "^8.34.0",
